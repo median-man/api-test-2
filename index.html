@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>API Test</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1>OMDB API Test</h1>
+      <button id="fetch-btn" class="btn btn-primary">Fetch</button>
+      <p>Request URL: <span id="req-url"></span></p>
+      <p>Status: <span id="status"></span></p>
+      <h3>Headers</h3>
+      <pre id="headers"></pre>
+      <h3>Body</h3>
+      <pre id="body"></pre>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="api-test.js"></script>
+  </body>
+</html>
