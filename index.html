@@ -15,8 +15,22 @@
   </head>
   <body>
     <div class="container-fluid">
-      <h1>OMDB API Test</h1>
-      <button id="fetch-btn" class="btn btn-primary">Fetch</button>
+      <h1>API Console</h1>
+      <form id="req-form">
+        <h2>Request</h2>
+        <div class="mb-3">
+          <label for="url-input" class="form-label">URL</label>
+          <input
+            type="url"
+            class="form-control"
+            id="url-input"
+            placeholder="Api URL"
+          />
+        </div>
+        <div class="mb-3">
+          <button type="submit">Fetch</button>
+        </div>
+      </form>
       <p>Request URL: <span id="req-url"></span></p>
       <p>Status: <span id="status"></span></p>
       <h3>Headers</h3>
