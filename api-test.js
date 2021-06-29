@@ -30,7 +30,7 @@ function handleRequestForm(event) {
     return;
   }
   isPending = true;
-  var url = new URL(urlInput.nodeValue.trim());
+  var url = new URL(urlInput.value.trim());
   if (!url) {
     return;
   }
